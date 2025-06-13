@@ -169,6 +169,11 @@ nav .nav_logo img:hover {
     color: #4D4D4D;
     font-size: 28px;
     margin-bottom: 15px;
+    transition: all 0.3s ease-in-out;
+}
+.cards .card h1:hover{
+    border-bottom: 2px solid #4CAF4F;
+    transform: scale(1.2);
 }
 
 .section2 .section_info {
@@ -180,6 +185,12 @@ nav .nav_logo img:hover {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+.section2 .imgs img{
+    transition: all 0.3s ease-in-out;
+}
+.section2 .imgs img:hover{
+    transform: scale(1.2);
 }
 
 .section2 .imgs h1 {
